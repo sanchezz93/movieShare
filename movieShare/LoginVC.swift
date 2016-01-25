@@ -8,13 +8,13 @@
 
 import UIKit
 
-class MainVC: UIViewController,OMDBAPIDelegate {
 
-    var omdbAPI = OMBDAPI()
+class LoginVC: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        omdbAPI.delegate = self
-        
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
