@@ -1,0 +1,6 @@
+framework module OMDBAPI {
+  umbrella header "OMDBAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
