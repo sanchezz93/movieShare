@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B804B420B800DD22D5DCF3E /* Pods_movieShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AA56D6A45173E8CCC5CEED /* Pods_movieShare.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		229ABFA6C1EDD1F36180906D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59F08181A566B0046F5B5DB /* Pods.framework */; };
 		8A1DAEB91C5660A200B60A18 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DAEB81C5660A200B60A18 /* LoginVC.swift */; };
 		8A1DAEBD1C56746000B60A18 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DAEBC1C56746000B60A18 /* MainVC.swift */; };
@@ -21,12 +22,14 @@
 		864FC96D575D7BFBCFAFC4E9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8A1DAEB81C5660A200B60A18 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8A1DAEBC1C56746000B60A18 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		8A734C561C56DBCC004430DB /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		8AFD4BB81C5650E100E1E432 /* movieShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movieShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFD4BBB1C5650E100E1E432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AFD4BC01C5650E100E1E432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AFD4BC21C5650E100E1E432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AFD4BC51C5650E100E1E432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AFD4BC71C5650E100E1E432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AA56D6A45173E8CCC5CEED /* Pods_movieShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movieShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59F08181A566B0046F5B5DB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,6 +39,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				229ABFA6C1EDD1F36180906D /* Pods.framework in Frameworks */,
+				1B804B420B800DD22D5DCF3E /* Pods_movieShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D59F08181A566B0046F5B5DB /* Pods.framework */,
+				A9AA56D6A45173E8CCC5CEED /* Pods_movieShare.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 				8AFD4BC71C5650E100E1E432 /* Info.plist */,
 				8A1DAEB81C5660A200B60A18 /* LoginVC.swift */,
 				8A1DAEBC1C56746000B60A18 /* MainVC.swift */,
+				8A734C561C56DBCC004430DB /* Bridging-Header.h */,
 			);
 			path = movieShare;
 			sourceTree = "<group>";
@@ -204,7 +210,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-movieShare/Pods-movieShare-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -334,6 +340,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanchezz.movieShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "movieShare/Bridging-Header.h\n";
 			};
 			name = Debug;
 		};
@@ -346,6 +353,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanchezz.movieShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "movieShare/Bridging-Header.h\n";
 			};
 			name = Release;
 		};

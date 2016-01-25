@@ -8,12 +8,11 @@
 
 import UIKit
 
-class MainVC: UIViewController,OMDBAPIDelegate {
 
-    var omdbAPI = OMBDAPI()
+class MainVC: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        omdbAPI.delegate = self
         
     }
 
