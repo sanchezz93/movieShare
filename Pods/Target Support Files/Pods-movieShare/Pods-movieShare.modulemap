@@ -1,0 +1,6 @@
+framework module Pods_movieShare {
+  umbrella header "Pods-movieShare-umbrella.h"
+
+  export *
+  module * { export * }
+}

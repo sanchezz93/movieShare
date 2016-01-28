@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A0C374D1C59487700559205 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0C37451C59487700559205 /* Bolts.framework */; };
-		8A0C374E1C59487700559205 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0C37461C59487700559205 /* FBSDKCoreKit.framework */; };
-		8A0C374F1C59487700559205 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0C37471C59487700559205 /* FBSDKLoginKit.framework */; };
-		8A0C37501C59487700559205 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0C37481C59487700559205 /* FBSDKShareKit.framework */; };
-		8A0C37511C59487700559205 /* OMDBAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0C37491C59487700559205 /* OMDBAPI.framework */; };
-		8A0C37521C59487700559205 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0C374A1C59487700559205 /* Parse.framework */; };
-		8A0C37531C59487700559205 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0C374B1C59487700559205 /* ParseFacebookUtilsV4.framework */; };
-		8A0C37561C5949A400559205 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0C37551C5949A400559205 /* Pods.framework */; };
 		8A1DAEB91C5660A200B60A18 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DAEB81C5660A200B60A18 /* LoginVC.swift */; };
 		8A1DAEBD1C56746000B60A18 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DAEBC1C56746000B60A18 /* MainVC.swift */; };
+		8A282C301C5AB1DC00F11B73 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A282C281C5AB1DC00F11B73 /* Bolts.framework */; };
+		8A282C311C5AB1DC00F11B73 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A282C291C5AB1DC00F11B73 /* FBSDKCoreKit.framework */; };
+		8A282C321C5AB1DC00F11B73 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A282C2A1C5AB1DC00F11B73 /* FBSDKLoginKit.framework */; };
+		8A282C331C5AB1DC00F11B73 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A282C2B1C5AB1DC00F11B73 /* FBSDKShareKit.framework */; };
+		8A282C341C5AB1DC00F11B73 /* OMDBAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A282C2C1C5AB1DC00F11B73 /* OMDBAPI.framework */; };
+		8A282C351C5AB1DC00F11B73 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A282C2D1C5AB1DC00F11B73 /* Parse.framework */; };
+		8A282C361C5AB1DC00F11B73 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A282C2E1C5AB1DC00F11B73 /* ParseFacebookUtilsV4.framework */; };
+		8A282C371C5AB1DC00F11B73 /* Pods_movieShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A282C2F1C5AB1DC00F11B73 /* Pods_movieShare.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8AFD4BBC1C5650E100E1E432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD4BBB1C5650E100E1E432 /* AppDelegate.swift */; };
 		8AFD4BC11C5650E100E1E432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD4BBF1C5650E100E1E432 /* Main.storyboard */; };
 		8AFD4BC31C5650E100E1E432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD4BC21C5650E100E1E432 /* Assets.xcassets */; };
@@ -24,17 +24,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A0C37451C59487700559205 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Pods/../build/Debug-iphoneos/Bolts.framework"; sourceTree = "<group>"; };
-		8A0C37461C59487700559205 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "Pods/../build/Debug-iphoneos/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		8A0C37471C59487700559205 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "Pods/../build/Debug-iphoneos/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
-		8A0C37481C59487700559205 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "Pods/../build/Debug-iphoneos/FBSDKShareKit.framework"; sourceTree = "<group>"; };
-		8A0C37491C59487700559205 /* OMDBAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OMDBAPI.framework; path = "Pods/../build/Debug-iphoneos/OMDBAPI.framework"; sourceTree = "<group>"; };
-		8A0C374A1C59487700559205 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Parse.framework"; sourceTree = "<group>"; };
-		8A0C374B1C59487700559205 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "Pods/../build/Debug-iphoneos/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
-		8A0C374C1C59487700559205 /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
-		8A0C37551C5949A400559205 /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
+		7F23FB054576D3D651E62147 /* Pods-movieShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movieShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-movieShare/Pods-movieShare.release.xcconfig"; sourceTree = "<group>"; };
 		8A1DAEB81C5660A200B60A18 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8A1DAEBC1C56746000B60A18 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		8A282C281C5AB1DC00F11B73 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Pods/../build/Debug-iphoneos/Bolts.framework"; sourceTree = "<group>"; };
+		8A282C291C5AB1DC00F11B73 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "Pods/../build/Debug-iphoneos/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		8A282C2A1C5AB1DC00F11B73 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "Pods/../build/Debug-iphoneos/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		8A282C2B1C5AB1DC00F11B73 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "Pods/../build/Debug-iphoneos/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		8A282C2C1C5AB1DC00F11B73 /* OMDBAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OMDBAPI.framework; path = "Pods/../build/Debug-iphoneos/OMDBAPI.framework"; sourceTree = "<group>"; };
+		8A282C2D1C5AB1DC00F11B73 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Parse.framework"; sourceTree = "<group>"; };
+		8A282C2E1C5AB1DC00F11B73 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "Pods/../build/Debug-iphoneos/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		8A282C2F1C5AB1DC00F11B73 /* Pods_movieShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_movieShare.framework; path = "Pods/../build/Debug-iphoneos/Pods_movieShare.framework"; sourceTree = "<group>"; };
 		8A734C561C56DBCC004430DB /* Briding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Briding-Header.h"; sourceTree = "<group>"; };
 		8AFD4BB81C5650E100E1E432 /* movieShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movieShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFD4BBB1C5650E100E1E432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		8AFD4BC21C5650E100E1E432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AFD4BC51C5650E100E1E432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AFD4BC71C5650E100E1E432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D59F08181A566B0046F5B5DB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA65A1EFAA77358FC98E17B6 /* Pods-movieShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movieShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-movieShare/Pods-movieShare.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,14 +50,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A0C37561C5949A400559205 /* Pods.framework in Frameworks */,
-				8A0C374D1C59487700559205 /* Bolts.framework in Frameworks */,
-				8A0C374E1C59487700559205 /* FBSDKCoreKit.framework in Frameworks */,
-				8A0C374F1C59487700559205 /* FBSDKLoginKit.framework in Frameworks */,
-				8A0C37501C59487700559205 /* FBSDKShareKit.framework in Frameworks */,
-				8A0C37511C59487700559205 /* OMDBAPI.framework in Frameworks */,
-				8A0C37521C59487700559205 /* Parse.framework in Frameworks */,
-				8A0C37531C59487700559205 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				8A282C301C5AB1DC00F11B73 /* Bolts.framework in Frameworks */,
+				8A282C311C5AB1DC00F11B73 /* FBSDKCoreKit.framework in Frameworks */,
+				8A282C321C5AB1DC00F11B73 /* FBSDKLoginKit.framework in Frameworks */,
+				8A282C331C5AB1DC00F11B73 /* FBSDKShareKit.framework in Frameworks */,
+				8A282C341C5AB1DC00F11B73 /* OMDBAPI.framework in Frameworks */,
+				8A282C351C5AB1DC00F11B73 /* Parse.framework in Frameworks */,
+				8A282C361C5AB1DC00F11B73 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				8A282C371C5AB1DC00F11B73 /* Pods_movieShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,16 +67,14 @@
 		556C0E316A0061338A2A6CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A0C37551C5949A400559205 /* Pods.framework */,
-				8A0C37451C59487700559205 /* Bolts.framework */,
-				8A0C37461C59487700559205 /* FBSDKCoreKit.framework */,
-				8A0C37471C59487700559205 /* FBSDKLoginKit.framework */,
-				8A0C37481C59487700559205 /* FBSDKShareKit.framework */,
-				8A0C37491C59487700559205 /* OMDBAPI.framework */,
-				8A0C374A1C59487700559205 /* Parse.framework */,
-				8A0C374B1C59487700559205 /* ParseFacebookUtilsV4.framework */,
-				8A0C374C1C59487700559205 /* Pods.framework */,
-				D59F08181A566B0046F5B5DB /* Pods.framework */,
+				8A282C281C5AB1DC00F11B73 /* Bolts.framework */,
+				8A282C291C5AB1DC00F11B73 /* FBSDKCoreKit.framework */,
+				8A282C2A1C5AB1DC00F11B73 /* FBSDKLoginKit.framework */,
+				8A282C2B1C5AB1DC00F11B73 /* FBSDKShareKit.framework */,
+				8A282C2C1C5AB1DC00F11B73 /* OMDBAPI.framework */,
+				8A282C2D1C5AB1DC00F11B73 /* Parse.framework */,
+				8A282C2E1C5AB1DC00F11B73 /* ParseFacebookUtilsV4.framework */,
+				8A282C2F1C5AB1DC00F11B73 /* Pods_movieShare.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,6 +85,7 @@
 				8AFD4BBA1C5650E100E1E432 /* movieShare */,
 				8AFD4BB91C5650E100E1E432 /* Products */,
 				556C0E316A0061338A2A6CEA /* Frameworks */,
+				A1FF2C147D05BBA77B71FD6B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +112,15 @@
 			path = movieShare;
 			sourceTree = "<group>";
 		};
+		A1FF2C147D05BBA77B71FD6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA65A1EFAA77358FC98E17B6 /* Pods-movieShare.debug.xcconfig */,
+				7F23FB054576D3D651E62147 /* Pods-movieShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AFD4BCA1C5650E100E1E432 /* Build configuration list for PBXNativeTarget "movieShare" */;
 			buildPhases = (
+				C071B64D6DC944EFB1725D83 /* Check Pods Manifest.lock */,
 				8AFD4BB41C5650E100E1E432 /* Sources */,
 				8AFD4BB51C5650E100E1E432 /* Frameworks */,
 				8AFD4BB61C5650E100E1E432 /* Resources */,
+				837F1FB10AB4B126DBA948A6 /* Embed Pods Frameworks */,
+				0E5CC64D133482397E469225 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,6 +190,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5CC64D133482397E469225 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-movieShare/Pods-movieShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		837F1FB10AB4B126DBA948A6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-movieShare/Pods-movieShare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C071B64D6DC944EFB1725D83 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8AFD4BB41C5650E100E1E432 /* Sources */ = {
@@ -298,12 +357,14 @@
 		};
 		8AFD4BCB1C5650E100E1E432 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA65A1EFAA77358FC98E17B6 /* Pods-movieShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/**",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = movieShare/Info.plist;
@@ -316,12 +377,14 @@
 		};
 		8AFD4BCC1C5650E100E1E432 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F23FB054576D3D651E62147 /* Pods-movieShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/**",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = movieShare/Info.plist;
