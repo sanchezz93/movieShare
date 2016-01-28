@@ -89,8 +89,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-movieShare/FBSDKLoginKit.framework"
   install_framework "Pods-movieShare/FBSDKShareKit.framework"
   install_framework "Pods-movieShare/OMDBAPI.framework"
-  install_framework "Pods-movieShare/Parse.framework"
-  install_framework "Pods-movieShare/ParseFacebookUtilsV4.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-movieShare/Bolts.framework"
@@ -98,6 +96,4 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-movieShare/FBSDKLoginKit.framework"
   install_framework "Pods-movieShare/FBSDKShareKit.framework"
   install_framework "Pods-movieShare/OMDBAPI.framework"
-  install_framework "Pods-movieShare/Parse.framework"
-  install_framework "Pods-movieShare/ParseFacebookUtilsV4.framework"
 fi

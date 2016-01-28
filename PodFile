@@ -1,16 +1,12 @@
 platform :ios, '9.2'
 
 use_frameworks!
+inhibit_all_warnings!
 
 link_with 'movieShare'
-
 target 'movieShare' do
-
 	pod 'FBSDKCoreKit', '~> 4.9'
 	pod 'FBSDKLoginKit', '~> 4.9'
 	pod 'OMDBAPI', '~> 0.0'
-	pod 'Parse', '~> 1.12'
-	pod 'ParseFacebookUtilsV4', '~> 1.11'
 	pod 'FBSDKShareKit', '~> 4.9'
-
 end 
