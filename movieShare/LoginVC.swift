@@ -11,13 +11,10 @@ import FBSDKShareKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 
-
 class LoginVC: UIViewController, FBSDKLoginButtonDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
         if (FBSDKAccessToken.currentAccessToken() != nil)
         {
             // User is already logged in, do work such as go to next view controller.
